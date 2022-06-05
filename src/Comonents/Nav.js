@@ -59,19 +59,20 @@ const Nav = () => {
                 />
               </svg>
             </label>
+            {/* Mobile */}
             <ul
               tabIndex="0"
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box "
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box font-semibold "
             >
               {menu}
             </ul>
           </div>
         </div>
         <div className="navbar-start w-full justify-between hidden lg:flex">
-          <ul className="menu menu-horizontal p-0">{menu}</ul>
+          <ul className="menu menu-horizontal p-0 font-semibold">{menu}</ul>
         </div>
-        <div className="navbar-end pr-8 ">
-          <div className="bg-white rounded-[2rem] p-1 shadow-lg uppercase">
+        <div className="navbar-end pr-8 sm:w-1/2 w-full">
+          <div className="bg-white rounded-[2rem] p-1 shadow-lg uppercase flex items-center">
             <button className=" px-6 uppercase">Login</button>
             <button className="py-2 px-6 rounded-[2rem] uppercase bg-primary text-white">
               Sign up
