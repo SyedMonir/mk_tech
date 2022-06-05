@@ -1,8 +1,10 @@
+import Nav from './Comonents/Nav';
+
 function App() {
   return (
-    <>
-      <h1>Hello</h1>
-    </>
+    <section className="bg-accent">
+      <Nav />
+    </section>
   );
 }
 
