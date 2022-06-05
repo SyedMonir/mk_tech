@@ -19,7 +19,7 @@ const Summery = () => {
         </h5>
       </div>
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-16 mx-auto">
+        <div className="container px-5 py-12 mx-auto">
           <div className="flex flex-wrap -m-4">
             {/* 1 */}
             <div className="p-4 lg:w-1/3">
