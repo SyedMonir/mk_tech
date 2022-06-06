@@ -13,7 +13,7 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<Home />}>
-            <Route path="popUnder" element={<PopUnder />} />
+            <Route index element={<PopUnder />} />
             <Route path="bannerAd" element={<BannerAd />} />
             <Route path="native" element={<Native />} />
             <Route path="skim" element={<Skim />} />
