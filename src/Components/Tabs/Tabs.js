@@ -3,8 +3,8 @@ import { NavLink, Outlet } from 'react-router-dom';
 
 const Tabs = () => {
   return (
-    <section>
-      <div className="btn-group justify-between w-11/12 mx-auto my-8">
+    <section className="w-11/12 mx-auto">
+      <div className="btn-group justify-between my-8">
         <NavLink
           style={({ isActive }) => {
             return {
@@ -12,7 +12,7 @@ const Tabs = () => {
             };
           }}
           to={'/popUnder'}
-          className=" flex items-center w-52 justify-center h-10 rounded-[2rem] uppercase text-lg text-white shadow"
+          className=" flex items-center w-52 justify-center h-10 rounded-[2rem] uppercase text-lg text-white shadow mb-2"
         >
           Pop-Under
         </NavLink>
