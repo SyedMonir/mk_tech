@@ -30,7 +30,7 @@ const Nav = () => {
     </>
   );
   return (
-    <header className=" uppercase">
+    <header className=" uppercase bg-accent">
       <div className="flex items-center justify-between  pt-8 mx-6">
         <button className="btn btn-ghost px-0 text-3xl font-bold">
           MK Tech.

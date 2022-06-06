@@ -1,4 +1,5 @@
 import React from 'react';
+import Tabs from './Tabs/Tabs';
 
 const Versatile = () => {
   return (
@@ -13,6 +14,7 @@ const Versatile = () => {
         </div>
       </div>
       {/* Tabs */}
+      <Tabs />
     </section>
   );
 };

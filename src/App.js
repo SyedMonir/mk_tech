@@ -1,6 +1,10 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './Components/Home';
 import Nav from './Components/Nav';
+import BannerAd from './Components/Tabs/BannerAd';
+import Native from './Components/Tabs/Native';
+import PopUnder from './Components/Tabs/PopUnder';
+import Skim from './Components/Tabs/Skim';
 
 function App() {
   return (
@@ -8,13 +12,13 @@ function App() {
       <BrowserRouter>
         <Nav />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route index element={<Home />} />
-          {/* <Route path="teams" element={<Teams />}>
-          <Route path="new" element={<NewTeamForm />} />
-          <Route index element={<LeagueStandings />} /> */}
-          {/* </Route> */}
-          {/* </Route> */}
+          <Route path="/" element={<Home />}>
+            <Route path="popUnder" element={<PopUnder />} />
+            <Route path="bannerAd" element={<BannerAd />} />
+            <Route path="native" element={<Native />} />
+            <Route path="skim" element={<Skim />} />
+          </Route>
+          {/* <Route index element={<Home />} /> */}
         </Routes>
       </BrowserRouter>
     </>
