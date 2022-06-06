@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Footer from './Components/Footer';
 import Home from './Components/Home';
 import Nav from './Components/Nav';
 import BannerAd from './Components/Tabs/BannerAd';
@@ -18,8 +19,9 @@ function App() {
             <Route path="native" element={<Native />} />
             <Route path="skim" element={<Skim />} />
           </Route>
-          {/* <Route index element={<Home />} /> */}
+          <Route path="*" element={<Home />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );

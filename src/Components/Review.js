@@ -58,7 +58,13 @@ const Review = () => {
   };
   return (
     <section className="sm:w-11/12 w-full mx-auto p-8">
-      <h2 className="text-center text-3xl mt-4 mb-8">Client's Review</h2>
+      <h2 className="text-center text-3xl mt-4 mb-4">Client's Review</h2>
+      <div className="flex mb-8 justify-center gap-2">
+        <div className="w-8 border-4 border-secondary rounded-2xl"></div>
+        <div className="w-4 border-4 border-slate-400 rounded-2xl"></div>
+        <div className="w-4 border-4 border-slate-400 rounded-2xl"></div>
+        <div className="w-4 border-4 border-slate-400 rounded-2xl"></div>
+      </div>
       <Slider {...settings} ref={customSlider}>
         {/* 1 */}
         <div className="p-4 bg-white rounded-2xl">
