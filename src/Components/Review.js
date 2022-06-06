@@ -68,8 +68,8 @@ const Review = () => {
       <Slider {...settings} ref={customSlider}>
         {/* 1 */}
         <div className="p-4 bg-white rounded-2xl">
-          <div className="flex shadow-md justify-between h-60 p-4 border-2 border-dotted border-primary rounded-2xl">
-            <div className="w-2/5 ">
+          <div className="flex sm:flex-row flex-col shadow-md justify-between sm:h-60 h-auto p-4 border-2 border-dotted border-primary rounded-2xl">
+            <div className="sm:w-2/5 w-full">
               <img className="h-full" src={user} alt="" />
             </div>
             <div className="text-secondary">
@@ -80,8 +80,8 @@ const Review = () => {
         </div>
         {/* 2 */}
         <div className="p-4 bg-white rounded-2xl">
-          <div className="flex shadow-md justify-between h-60 p-4 border-2 border-dotted border-primary rounded-2xl">
-            <div className="w-2/5 ">
+          <div className="flex sm:flex-row flex-col shadow-md justify-between sm:h-60 h-auto p-4 border-2 border-dotted border-primary rounded-2xl">
+            <div className="sm:w-2/5 w-full">
               <img className="h-full" src={user} alt="" />
             </div>
             <div className="text-secondary">
@@ -92,8 +92,8 @@ const Review = () => {
         </div>
         {/* 3 */}
         <div className="p-4 bg-white rounded-2xl">
-          <div className="flex shadow-md justify-between h-60 p-4 border-2 border-dotted border-primary rounded-2xl">
-            <div className="w-2/5 ">
+          <div className="flex sm:flex-row flex-col shadow-md justify-between sm:h-60 h-auto p-4 border-2 border-dotted border-primary rounded-2xl">
+            <div className="sm:w-2/5 w-full">
               <img className="h-full" src={user} alt="" />
             </div>
             <div className="text-secondary">
